@@ -1,8 +1,9 @@
 :root {
     --blanco:#ffffff;
     --oscuro: #212121;
-    --primario: rgb(131, 175, 241);
+    --primario: rgb(98, 125, 162);
     --secundario: rgb(20, 53, 83);
+    --terciario: rgb(27, 74, 139);
     --gris: #25354b;
     --grisClaro: #DFE9F3 
 }
@@ -20,7 +21,7 @@ html {
 body {
     font-size: 16px; /* 1 rem = 10px */
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco) 100%);
+    background-image: linear-gradient(to top, var(--gris) 30%, var(--blanco) 100%);
 }
 
 .contenedor {
@@ -29,7 +30,7 @@ body {
 }
 
 .boton {
-    background-color: var(--secundario);
+    background-color: var(--terciario);
     color: var(--blanco);
     padding: 1rem 3rem;
     margin-top: 3rem;
@@ -216,7 +217,7 @@ h1,h2,h3 {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--primario);
+    color: var(--grisClaro);
 }
 
 .campo {
