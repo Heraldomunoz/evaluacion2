@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me especializo en la creación de componentes visuales dentro de un software, aplicación o sitio web">
+    <meta name="keywords" content="diseño, desarrollo web, aplicaciones, e-commerce">
+    <meta name="author" content="Heraldo Muñoz">
+    <title>Evaluación 2 - Heraldo Muñoz</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Heraldo Muñoz <span>Freelance</span></h1>
+    </header>
+
+    <!-- Navegación principal -->
+    <div class="nav-pp">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#servicios">Sobre Mi</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#form">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Portada fotografía -->
+    <section class="portada">
+        <article class="contenido-portada">
+            <h2 id="titulo2" class="titulo"><span>Diseño y Desarrollo Web Freelancer</span></h2>
+
+            <div class="ubicacion">
+                <p>
+                    <!-- icono ubicación -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44"
+                        height="44" viewbox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    Santiago, Chile
+                </p>
+            </div>
+            <a class="boton" href="#form">Contactar</a>
+        </article>
+    </section>
+
+    <!-- Sección Mis servicios -->
+    <main class="contenedor sombra">
+        <h2 id="servicios" class="titulo-servicios">Mis Servicios</h2>
+
+        <div id="portfolio" class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <article class="iconos">
+                    <!-- icono paleta--> <img class="foto-e" src="./img/dw.jpeg" alt="foto desarrollo web">
+                </article>
+                <p>Construcción y mantención de sitios web; Consigue un apariencia impecable, un funcionamiento rápido y
+                    un buen desempeño para permitir la mejor experiencia de usuario.</p>
+            </section>
+
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+
+<!-- Originalmente van iconos en esta sección. Pero por requerimientos de la evaluación cambié a imágenes -->
+                <article class="iconos">
+                    <!-- Icono android -->
+                    <!-- Icono Apple --> <img class="foto-e" src="./img/aw.jpeg" alt="foto aplicaciones web">
+                </article>
+                <p>Las aplicaciones web son una herramienta que se codifica en un lenguaje que es soportado por los
+                    navegadores y que se ejecuta en los mismos.</p>
+            </section>
+
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <article class="iconos">
+                    <!-- Icono E-commerce --> <img class="foto-e" src="./img/ec1.jpeg" alt="foto e-commerce">
+                </article>
+                <p>El e-commerce, también conocido como comercio electrónico, es un modelo de negocio online que
+                    consiste en la compra y venta de productos o servicios a través de Internet.</p>
+            </section>
+        </div> <!-- .servicios -->
+
+        <!-- Formulario de contacto -->
+        <section>
+            <h2 class="titulo-servicios">Contacto</h2>
+
+            <form id="form" class="formulario">
+                <fieldset>
+                    <legend>Contáctame llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Email</label>
+                            <input class="input-text" type="email" placeholder="Tu mail">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea></textarea>
+                        </div>
+                    </div> <!--  .contenedor-campos -->
+
+                    <!-- Boton de enviar -->
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy Todos los derechos reservados.<span> Heraldo Muñoz</span> Freelance</p>
+    </footer>
+</body>
+
+</html>
